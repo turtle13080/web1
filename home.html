@@ -6,17 +6,6 @@
   <h1><strong>about the <u>Theory of Relativity</u></strong></h1>
 </head>
 <body>
-  <table border="1">
-  <tr>
-    <td>general relativity</td>
-    <td>special relativity</td>
-  </tr>
-  <tr>
-    <td>neutron stars</td>
-    <td>black holes</td>
-    <td>gravitational waves</td>
-  </tr>
-  </table>
   <ul>
     <li><a href="html1.html">special Relativity</a></li>
     <li><a href="html2.html">general Relativity</a></li>
@@ -38,6 +27,59 @@
   In the field of physics, relativity improved the science of elementary particles and their fundamental interactions,
   along with ushering in the nuclear age.
   With relativity, cosmology and astrophysics predicted extraordinary astronomical phenomena such as neutron stars, black holes, and gravitational waves.</p>
+  <form action="https://turtle13080.github.io/web1/home.html" method="post">
+    <p><label for="id">id</label> <input id="id" type="text" name="id" value="write your id"></p>
+    <p><label for="password">password</label> <input id="password" type="password" name="p.w." value="write your password"></p>
+    <p><label for="address">address</label> <input id="address" type="text" name="address" value="write your address"></p>
+    <p><label for="textarea">textarea</label> <textarea id="textarea" name="textarea" rows="8" cols="80">meno : write your think</textarea></p>
+    <input type="reset">
+    <h1>which theory do you like?</h1>
+    <select name="theory" multiple>
+      <option value="all">all</option>
+      <option value="general relativity theory">general relativity thoery</option>
+      <option value="special relativity theory">special relativity thoery</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <form action="https://turtle13080.github.io/web1/home.html" method="get">
+    <p>
+      <h1>theory</h1>
+      general relativity thoery <input type="radio" name="thoery" value="general relativity thoery">
+      special relativity thoery <input type="radio" name="theory" value="special relativity thoery">
+      <input type="submit">
+      <input type="reset">
+    </p>
+    <p>
+      <h1>phenomenon</h1>
+      <label>neutron stars<input type="radio" name="checkbox" value="neutron stars" checked></label>
+      <label>black holes<input type="radio" name="checkbox" value="black holes" checked></label>
+      <label>gravitational waves<input type="radio" name="checkbox" value="gravitational waves" checked></label>
+      <input type="submit" onclick="alert('good')">
+      <input type="reset">
+    </p>
+  </form>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>name</th>
+        <td>general relativity theory</td>
+        <td>special relativity theory</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>phenomenon</th>
+        <td>neutron stars</td>
+        <td>black holes</td>
+        <td rowspan="2">gravitational waves</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th>scientist</th>
+      <td colspan="3">Albert Einstein</td>
+    </tfoot>
+  </table>
   <img src="galaxy.jpg" width="100%">
 
   <div id="lv-container" data-id="city" data-uid="MTAyMC80OTY3Ni8yNjE2Nw==">
