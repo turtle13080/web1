@@ -1,18 +1,21 @@
 <!doctype html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Theory of Relativity</title>
   <meta charset="utf-8">
   <h1><strong>about the <u>Theory of Relativity</u></strong></h1>
 </head>
 <body>
   <ul>
-    <li><a href="html1.html">special Relativity</a></li>
-    <li><a href="html2.html">general Relativity</a></li>
+    <li><a href="html1.html"><font color="gold">special Relativity</font></a></li>
+    <li><a href="html2.html"><font color="gold">general Relativity</font></a></li>
   </ul>
   <ol>
-    <li><a href="html3.html">special Relativity</a></li>
-    <li><a href="home1.html">general Relativity</a></li>
+    <li><a href="html3.html"><font color="gold">special Relativity</font></a></li>
+    <li><a href="home1.html"><font color="gold">general Relativity</font></a></li>
   </ol>
   <h2>The thoery of Relativity</h2>
   <a href="https://www.space.com/17661-theory-general-relativity.html" target="_blank" title="the theory of relativity">the theory of relativity</a>
@@ -26,12 +29,26 @@
   space and time, relativity of simultaneity, kinematic and gravitational time dilation, and length contraction.
   In the field of physics, relativity improved the science of elementary particles and their fundamental interactions,
   along with ushering in the nuclear age.
-  With relativity, cosmology and astrophysics predicted extraordinary astronomical phenomena such as neutron stars, black holes, and gravitational waves.</p>
+  With relativity, cosmology and astrophysics predicted extraordinary astronomical phenomena such as <strong><u>neutron stars, black holes, and gravitational waves</u></strong>.</p>
   <form action="https://turtle13080.github.io/web1/home.html" method="post">
-    <p><label for="id">id</label> <input id="id" type="text" name="id" value="write your id"></p>
-    <p><label for="password">password</label> <input id="password" type="password" name="p.w." value="write your password"></p>
+    <input type="date" name="datevalue">
+    <input type="number" name="age" min="0">
+    <input type="month" name="monthvalue">
+    <input type="week" name="weekvalue">
+    <input type="email" name="emailvalue">
+    <input type="time" name="timevalue">
+    <input type="tel" name="telvalue">
+    <input type="url" name="urlvalue">
+    <input type="range" name="rangevalue" min="0" max="10">
+    <input type="submit">
+  </form>
+  <form action="https://turtle13080.github.io/web1/home.html" method="post" autocomplete="on">
+    <p><label for="id">id</label> <input id="id" type="number" name="id" value="write your id" placeholder="write your id" autofocus required></p>
+    <p><label for="password">password</label> <input id="password" type="password" name="p.w." value="write your password"
+      autocomplete="off" required pattern="[a-z].+<font color="gold">"></p>
     <p><label for="address">address</label> <input id="address" type="text" name="address" value="write your address"></p>
-    <p><label for="textarea">textarea</label> <textarea id="textarea" name="textarea" rows="8" cols="80">memo : write your think</textarea></p>
+    <p><label for="textarea">textarea</label> <textarea id="textarea" name="textarea" rows="8" cols="80" placeholder="write your idea"></textarea></p>
+    <p><label for="address">test</label> <input id="address" type="number" min="10" max="15" name="address" value="number"></p>
     <input type="reset">
     <h1>which theory do you like?</h1>
     <select name="theory" multiple>
